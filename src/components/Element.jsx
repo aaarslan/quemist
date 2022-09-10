@@ -27,7 +27,7 @@ const Element = () => {
                 xxs: layout
             }}
                 breakpoints={{
-                lg: 1200,
+                lg: 1000,
                 md: 996,
                 sm: 768,
                 xs: 480,
@@ -45,7 +45,7 @@ const Element = () => {
                 isDraggable = {false}
                 isResizable = {false}
                 rowHeight={20}
-                width={1200}>
+                width={1000}>
                 {layout.map((card) => {
                     const symbol = card.i
                     const cell = tableObj[symbol]
